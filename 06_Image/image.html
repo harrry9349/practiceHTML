@@ -1,0 +1,61 @@
+<!doctype html> 
+<html>          
+<head>
+
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/image.css">
+    <title>画像の表示</title>
+</head>
+
+<body>
+    <h1>画像の表示</h1>
+    <p>CSS側でbackground-image: url()を設定し、背景を表示する</p>
+    
+    <div class="c1">
+        <h1>画像を単純に表示する</h1>
+        <p>&lt;img src=&quot;img/toy_fukiage_pipe_boy.png&quot;/&gt;で表示</p>
+        <img src="img/toy_fukiage_pipe_boy.png">
+    
+    </div>
+
+    <div class="c2">
+        <h1>画像を横並べに表示する</h1>
+        <p>CSS側でfloat:leftを使用し、画像を横並べにする</p>
+        <ul>
+            <li><img src="img/toy_fukiage_pipe_boy.png"></li>
+            <li><img src="img/youkai_jinmenken.png"></li>
+            <li><img src="img/oshiro_aduchijou.png"></li>
+        </ul>
+
+    </div>
+
+    <div class="c3">
+        <h1>画像を小さく横並べに表示する（ピクセルを直接指定）</h1>
+        <p>縦:120px,横:180pxを指定</p>
+        <ul>
+            <li><img src="img/oshiro_aduchijou.png"></li>
+            <li><img src="img/toy_fukiage_pipe_boy.png"></li>
+            <li><img src="img/youkai_jinmenken.png"></li>
+
+        </ul>
+    </div>   
+
+    <div class="c4">
+        <h1>画像を小さく横並べに表示する（縮尺比を指定）</h1>
+        <p>ブラウザ画面に対する縮尺であることに注意</p>
+        <p>autoで縦横比を維持できる</p>
+        <ul>
+            <li><img src="img/oshiro_aduchijou.png"></li>
+            <li><img src="img/toy_fukiage_pipe_boy.png"></li>
+            <li><img src="img/youkai_jinmenken.png"></li>
+        </ul>
+    </div>  
+
+    <div class="c5">
+    <p>背景：フリーテクスチャ素材館(<a href="https://free-texture.net/">https://free-texture.net/</a>)</p>
+    <p>画像：いらすとや(<a href="https://www.irasutoya.com/">ttps://www.irasutoya.com/</a>)</p>
+    </div>
+
+</body>
+
+</html>

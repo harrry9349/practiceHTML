@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/* background-image: url()で背景表示*/
+body{
+    background-image: url("../img/CorkBoard02.jpg");
+    color:yellow;
+}
+/* list-style-type: none;でulのリストの左端につく点を削除できる*/
+ul{
+    list-style-type: none;
+
+}
+/* float:leftで画像を横並べにする*/
+.c2 li{
+    float: left;
+    padding:20px 10px 20px 10px;
+}
+/* float:leftを解除するにはclear:bothが必要*/
+.c3{
+    clear: both;
+}
+
+.c3 li{
+    float: left;
+    padding:20px 10px 20px 10px;
+}
+
+/* height,widthで画像の大きさを調節*/
+.c3 img{
+    height: 120px;
+    width: 180px;
+}
+
+/* float:leftを解除するにはclear:bothが必要*/
+.c4{
+    clear: both;
+}
+.c4 li{
+    float: left;
+    padding:20px 10px 20px 10px;
+}
+/* パーセンテージを使用可(ブラウザ画面に対する縮尺であることに注意)*/
+/* autoで縦横比を維持できる*/
+.c4 img{
+    height: auto;
+    width: 50%;
+}
+
+/* float:leftを解除するにはclear:bothが必要*/
+.c5{
+    clear: both;
+}
