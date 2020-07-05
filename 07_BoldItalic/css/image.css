@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/* background-image: url()で背景表示*/
+.c1{
+    font-family: serif;
+    font-size: 40px;
+    color: burlywood;
+}
+
+.c2{
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(226, 13, 13);
+}
+
+.c3{
+    font-family: serif;
+    font-weight: lighter;
+    font-size: 70px;
+    color: #00FF00;
+}
