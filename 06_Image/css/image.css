@@ -9,9 +9,8 @@ ul{
     list-style-type: none;
 
 }
-/* float:leftで画像を横並べにする*/
+
 .c2 li{
-    float: left;
     padding:20px 10px 20px 10px;
 }
 /* float:leftを解除するにはclear:bothが必要*/
@@ -20,7 +19,7 @@ ul{
 }
 
 .c3 li{
-    float: left;
+    float:left;
     padding:20px 10px 20px 10px;
 }
 

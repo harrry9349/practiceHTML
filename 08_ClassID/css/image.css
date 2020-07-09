@@ -1,0 +1,73 @@
+@charset "UTF-8";
+/* リンクタグの色*/
+a {
+    color: #0073bc;
+    text-decoration: none;/* 線を引かない*/
+}
+
+/* href属性が付いているリンク*/
+a:link{
+    color:#0073bc
+}
+
+/* 訪問済み状態のリンク*/
+a:visited{
+    color:#02314c;
+}
+
+/* マウスポインタが重なっているときのリンク*/
+a:hover{
+    color: #b7dbf2;
+    text-decoration: underline;/* 下線を引く*/
+}
+
+/* マウスボタンがクリックされているときのリンク*/
+a:active{
+    color:#4ca4e8;
+    text-decoration: overline; /* 上線を引く*/
+}
+
+
+
+/* list-style-type: none;でulのリストの左端につく点を削除できる*/
+ul{
+    list-style-type: none;
+
+}
+/* float:leftでリストを横並べにする*/
+.c2 li{
+    padding:20px 10px 20px 10px;
+}
+
+.c2 img{
+    height: 120px;
+    width: 180px;
+}
+
+/* float:leftを解除するにはclear:bothが必要*/
+.c3{
+    clear: both;
+}
+
+.c3 li{
+    float: left;
+    padding:30px 20px 30px 20px;
+}
+
+
+/* float:leftを解除するにはclear:bothが必要*/
+.c4{
+    clear: both;
+}
+.c4 li{
+    float: left;
+    padding:20px 10px 20px 10px;
+}
+/* パーセンテージを使用可(ブラウザ画面に対する縮尺であることに注意)*/
+/* autoで縦横比を維持できる*/
+
+
+/* float:leftを解除するにはclear:bothが必要*/
+.c5{
+    clear: both;
+}
