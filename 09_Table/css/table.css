@@ -1,0 +1,32 @@
+.c1{
+    color:white;
+    background-color: gray;
+}
+
+.c2{
+    color:black;
+    background-color: white;
+}
+
+.info1{
+    border-collapse: collapse;
+}
+
+.info1 th ,.info1 td{
+    padding: 8px;
+    border:1px solid #bec2c7;
+    text-align:left;
+}
+
+.info1 th {
+    background-color:#dde2ea;
+    width: 90px;
+    color: #3f5170;
+    vertical-align: top;
+}
+
+.info2 td{
+    padding: 8px;
+    border:1px solid #bec2c7;
+    text-align:left;
+}

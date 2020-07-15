@@ -1,0 +1,107 @@
+<!doctype html> 
+<html>          
+<head>
+
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/table.css">
+    
+    <title>テーブル</title>
+</head>
+
+<body>
+    <div id="id1">
+    <h1>テーブルを作る</h1>
+    <p>&lt;table&gt;&lt;/table&gt;タグを使用する</p>
+    <p> &lt;tr&gt; &lt;/tr&gt;で行、 &lt;td&gt; &lt;/td&gt;で列を作成する</p>
+    <table>
+        <tr class="c1">
+            <td>Key1</td>
+            <td>Value1</td>
+        </tr>
+        <tr class="c2">
+            <td>Key2</td>
+            <td>Value2</td>
+        </tr>
+    </table>
+    <p><a href="#id2">次へ</a></p>
+    </div>
+
+<div id="id2">
+    <h1>見出しセルを作る</h1>
+    <p>&lt;th&gt;&lt;/th&gt;タグを使用する</p>
+    <p>自動的に太字中央揃えになる</p>
+
+    <table>
+        <tr class="c1">
+            <th>住所</th>
+            <td>東京都</td>
+            <td>渋谷区</td>
+            <td>道玄坂</td>
+            <td>1-1-1</td>
+        </tr>
+        <tr class="c2">
+            <th>電話番号</th>
+            <td>222-333-444</td>
+        </tr>
+    </table>
+    <p><a href="#id3">次へ</a></p>
+</div>
+
+<div id="id3">
+    <h1>CSSで罫線を引く</h1>
+    <p>border-collapse: collapse;を設定すると各セルの線が重複する（二重にならない）</p>
+    <table class="info1">
+        <tr>
+            <th>城</th>
+            <td>名前</td>
+            <td>都道府県</td>
+        </tr>
+        <tr>
+            <th>城１</th>
+            <td>松本城</td>
+            <td>長野県</td>
+        </tr>
+        <tr>
+            <th>城２</th>
+            <td>姫路城</td>
+            <td>兵庫県</td>
+        </tr>
+        <tr>
+            <th>城３</th>
+            <td>五稜郭</td>
+            <td>北海道</td>
+        </tr>
+        <p><a href="#id4">次へ</a></p>
+    </table>
+</div>
+  
+<div id="id4">
+    <h1>セルを横方向に結合する</h1>
+    <p>tdに対してcolspan=&quot;数値&quot;を設定する</p>
+
+    <table class="info2">
+        <tr>
+            <td>AAAAA</td>
+            <td>AAAAA</td>
+            <td>AAAAA</td>
+            <td>AAAAA</td>
+            <td>AAAAA</td>
+        </tr>
+        <tr>
+            <td colspan="2">BBBBB</td>
+            <td>BBBBB</td>
+            <td>BBBBB</td>
+            <td>BBBBB</td>
+        </tr>
+        <tr>
+            <td>CCCCC</td>
+            <td colspan="3">CCCCC</td>
+            <td>CCCCC</td>
+        </tr>
+
+    </table>
+</div>
+
+</body>
+
+</html>
