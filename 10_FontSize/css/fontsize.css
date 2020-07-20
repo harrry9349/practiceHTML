@@ -1,0 +1,31 @@
+div{
+    padding-bottom: 50px;
+}
+.c1 p{
+    text-align: left;
+}
+
+
+.c2 p{
+    text-align: center;
+}
+
+.c3 p{
+    text-align: right;
+}
+
+.c4 p{
+    line-height: 2.3;
+}
+
+.c5 p{
+    font-size: 26px;
+}
+
+.c6 p{
+    font-size: 52px;
+}
+
+.c7 p{
+    font-size: 78px;
+}
