@@ -1,0 +1,28 @@
+@charset "UTF-8";
+.c1 a:hover img{
+    opacity: 0.5;
+}
+
+.float-box{
+    float:left;
+    margin-right: 1em;
+    margin-bottom: 0.5em;
+    vertical-align: baseline;
+}
+
+.float-clear{
+    overflow:hidden;
+}
+
+/* background-image: url()で背景表示*/
+.c3{
+    height:800px;
+    background-image: url("../img/youkai_jinmenken.png");
+    background-repeat:repeat;
+
+}
+
+.c4{
+    text-align:center;
+    color:red;
+}
