@@ -1,0 +1,93 @@
+<!doctype html> 
+<html>          
+<head>
+
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/paddingborder.css">
+    
+    <title>ボーダーとパディング</title>
+</head>
+
+<body>
+    <div id="id1">
+    <h1>ボーダーを設定する</h1>
+    <p>CSSでborderを設定するとボーダー領域が線で囲まれる</p>
+    <p>border-top,-right,bottom,-leftで上下左右に線を設定できる</p>
+    <p>【太さ】【線形】【色】の順で設定する</p>
+        <ul class="c1">
+            <li class="border1">線で囲む 3px solid black</li>
+            
+            <li class="border2">右に線 8px solid red</li>
+
+            <li class="border3">上に線 5px dotted blue</li>
+            
+            <li class="border4">下に線 6px solid green</li>
+
+            <li class="border5">左に線 3px dotted black</li>
+
+        </ul>
+
+        <p>border-collapse: collapse;を設定すると各セルの線が重複する（二重にならない）</p>
+        <table class="info1">
+            <tr>
+                <th>城</th>
+                <td>名前</td>
+                <td>都道府県</td>
+            </tr>
+            <tr>
+                <th>城１</th>
+                <td>松本城</td>
+                <td>長野県</td>
+            </tr>
+            <tr>
+                <th>城２</th>
+                <td>姫路城</td>
+                <td>兵庫県</td>
+            </tr>
+            <tr>
+                <th>城３</th>
+                <td>五稜郭</td>
+                <td>北海道</td>
+            </tr>
+        </table>
+    <p><a href="#id2">次へ</a></p>
+    </div>
+
+<div id="id2" >
+    <h1>ボックスモデル</h1>
+    <p>外側からマージン領域、ボーダー領域、パディング領域、コンテンツ領域(テキストや画像）となる</p>
+    <p>この構造のことをボックスモデルと呼ぶ</p>
+
+ <div class="c2">
+
+        <p class="area1">水色がマージン領域 20px 30px 40px 50px</p>
+        
+        <p class="area2">右にマージン  40px</p>
+
+        <p class="area3">上にマージン 50px</p>
+        
+        <p class="area4">下にマージン 60px</p>
+
+        <p class="area5">左にマージン  30px</p>
+        
+    <p class="area6">水色がパディング領域 20px 30px 40px 50px</p>
+    
+    <p class="area7">右にパディング  40px</p>
+
+    <p class="area8">上にパディング 50px</p>
+    
+    <p class="area9">下にパディング 60px</p>
+
+    <p class="area10">左にパディング  30px</p>
+</div>
+
+</div>
+
+
+<div id="id3">
+
+</div>
+
+</body>
+
+</html>
