@@ -1,0 +1,30 @@
+.menu-item {
+    display: flex;
+    border-bottom: 1px dashed #bec2c7;
+    padding: 20px 8px;
+}
+
+.c1{
+    margin-right: 16px;
+}
+
+.info1{
+    border-collapse: collapse;
+}
+
+.info1 th ,.info1 td{
+    padding: 8px;
+    border:1px solid #bec2c7;
+    text-align:left;
+}
+
+.info1 th {
+    background-color:#dde2ea;
+    width: 90px;
+    color: #3f5170;
+    vertical-align: top;
+}
+
+
+
+
