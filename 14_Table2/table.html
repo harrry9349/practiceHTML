@@ -1,0 +1,109 @@
+<!doctype html> 
+<html>          
+<head>
+
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/table.css">
+    
+    <title>テーブル2</title>
+</head>
+
+<body>
+    <div id="id1">
+        <h2>セルの内側に余白を入れる<br>
+        セルの横幅を指定する<br>
+        セルの背景色を指定する</h2>
+        <p>paddingを設定する</p>        
+        <p>widthを設定する</p>        
+        <p>background-colorを設定する</p>
+
+        <table class="info1">
+            <tr>
+                <th>城</th>
+                <td>名前</td>
+                <td>都道府県</td>
+            </tr>
+            <tr>
+                <th>城１</th>
+                <td>松本城</td>
+                <td>長野県</td>
+            </tr>
+            <tr>
+                <th>城２</th>
+                <td>姫路城</td>
+                <td>兵庫県</td>
+            </tr>
+            <tr>
+                <th>城３</th>
+                <td>五稜郭</td>
+                <td>北海道</td>
+            </tr>
+        </table>
+    <p><a href="#id2">次へ</a></p>
+    </div>
+
+<div id="id2">
+    <h2>テーブルにキャプションをつける</h2>
+    <p>&lt;caption&gt;&lt;/caption&gt;タグを使用する</p>
+    <p>CSSでcaptionタグの設定を行う</p>
+
+    <table class="info2">
+    <caption>キャプション：城の一覧</caption>
+        <tr>
+            <th>城</th>
+            <td>名前</td>
+            <td>都道府県</td>
+        </tr>
+        <tr>
+            <th>城１</th>
+            <td>松本城</td>
+            <td>長野県</td>
+        </tr>
+        <tr>
+            <th>城２</th>
+            <td>姫路城</td>
+            <td>兵庫県</td>
+        </tr>
+        <tr>
+            <th>城３</th>
+            <td>五稜郭</td>
+            <td>北海道</td>
+        </tr>
+    </table>
+    <p><a href="#id3">次へ</a></p>
+</div>
+
+<div id="id3">
+    <h2>セルを縦方向に結合する</h2>
+    <p>tdに対してrowspan=&quot;数値&quot;を設定する</p>
+
+    <table class="info2">
+        <tr>
+            <td rowspan="2">AAAAA</td>
+            <td>AAAAA</td>
+            <td>AAAAA</td>
+            <td rowspan="3">AAAAA</td>
+            <td>AAAAA</td>
+        </tr>
+        <tr>
+            <td>BBBBB</td>
+            <td>BBBBB</td>
+            <td>BBBBB</td>
+   
+        </tr>
+        <tr>
+            <td>CCCCC</td>
+            <td colspan="2">CCCCC</td>
+            <td>CCCCC</td>
+        </tr>
+
+    </table>
+</div>
+  
+<div id="id4">
+
+</div>
+
+</body>
+
+</html>
