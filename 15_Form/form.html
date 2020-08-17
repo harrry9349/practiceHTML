@@ -1,0 +1,65 @@
+<!doctype html> 
+<html>          
+<head>
+
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/table.css">
+    
+    <title>フォーム</title>
+</head>
+
+<body>
+    <div id="id1">
+        <h2>フォームを作る</h2>
+        <p>&lt;form&gt;&lt;/form&gt;タグを使用する</p>        
+
+
+        <form method="GET" action="result.html">
+            <div>
+                <p>&lt;select&gt;&lt;/select&gt;タグでセレクトボックスを作る</p>
+                <p>&lt;label&gt;&lt;/label&gt;タグとfor,id属性でラベル作る</p>
+                <label for="kind">お問い合わせの種類</label><br>
+                <select id="kind" name="kind">
+                    <option value="reservation">ご予約</option>
+                    <option value="event">イベントについて</option>
+                    <option value="contact">その他のお問合せ</option>
+                </select>
+            </div>
+
+            <div>
+                <p>&lt;input type=&quot;radio&quot;&gt;タグでラジオボタンを作る</p>
+                <label><input type="radio" name="button" value="yes" checked>はい</label>
+                <label><input type="radio" name="button" value="no">いいえ</label>
+            </div>
+
+            <div>
+                <p>&lt;input type=&quot;checkbox&quot;&gt;タグでチェックボックスを作る</p>
+                <label><input type="radio" name="check" value="check1" checked>チェック１</label>
+                <label><input type="radio" name="check" value="check2">チェック２</label>
+            </div>
+
+            <div>
+                <label><p>&lt;input type=&quot;text&quot;&gt;タグでテキストボックスを作る</p>
+                <input type="text" name="subject" placeholder="最初に表示される文字" ></label>
+            </div>
+
+            <div>
+                <label><p>&lt;&quot;textarea&quot;&gt;タグでテキストエリアを作る</p>
+                <textarea name="message"></textarea></label>
+            </div>
+
+            <div>
+                <p>&lt;input type=&quot;submit&quot;&gt;タグで送信ボタンを作る</p>
+                <input type="submit" name="submit" value="送信" >
+            </div>
+
+
+        </form>
+
+    </div>
+
+
+
+</body>
+
+</html>
