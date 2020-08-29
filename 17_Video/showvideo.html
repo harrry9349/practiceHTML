@@ -1,0 +1,69 @@
+<!doctype html> 
+<html>          
+<head>
+
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/showvideo.css">
+    
+    <title>動画の表示</title>
+</head>
+
+<body>
+
+<header>
+    <div class="container">
+        <div class="header-inner">
+            <div class="logo">Header</div>
+        </div>
+    </div>
+</header>
+
+<nav>
+    <div class="container">
+        <div class="nav-inner">ホーム　会社案内　製品案内　サポート　お問合せ</div>
+    </div>
+</nav>
+
+<section>
+    <div class="container">
+        <main>
+            <div class="main-inner">
+                <p class="main-title"><b>Youtubeの動画を埋め込む</b></p> 
+                <ol>
+                <li>埋め込みたい YouTube 動画に移動する。</li>
+                <li>動画の下にある [共有] 共有 をクリックする。</li>
+                <li>[埋め込む] をクリックする。</li>
+                <li>ボックスに表示されている HTML コードをコピーする。</li>
+                <li>ウェブサイトの HTML にコードを貼り付ける。</li>
+                </ol>
+                <iframe width="300" height="200" src="https://www.youtube.com/embed/2KzkWWkPSpU" 
+                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+
+
+            <p class="main-title"><b>&lt;video&gt;タグを使用して埋め込む</b></p> 
+            <p>&lt;video sec=&quot;ファイル名&quot;&gt;&lt;/video&gt;</p>
+            <p>controlsタグで動画を操作可能</p>
+
+            <video width="300" height="200" src="video/GlacierExpress.mp4" controls></video>
+
+            <p>autoで自動再生、loopで繰り返し再生</p>
+            <video width="300" height="200" src="video/Underwater.mp4" loop autoplay muted></video>
+
+        </div>
+        </main>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="footer-inner">
+            <p class="copyright">領域の背景を動画にしてみる</p>
+            <video src="video/GlacierExpress.mp4" loop autoplay muted></video>
+        </div>
+    </div>
+</footer>
+
+</body>
+
+</html>
